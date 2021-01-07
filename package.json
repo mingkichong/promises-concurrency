@@ -1,0 +1,18 @@
+{
+  "name": "promises-concurrency",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn install && tsc --build tsconfig.json --clean",
+    "play": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "node": "^15.0.1"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.33",
+    "@types/node": "^14.14.6"
+  }
+}
